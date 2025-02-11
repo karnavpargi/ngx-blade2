@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/karnavpargi/ngx-blade2/issues"
   },
-  "version": "1.0.0",
+  "version": "7.0.0",
   "author": {
     "name": "Karnav Pargi",
     "url": "https://www.karnavpargi.com"
@@ -37,22 +37,22 @@
   "private": false,
   "dependencies": {},
   "devDependencies": {
-    "@angular/animations": "^6.0.3",
-    "@angular/common": "^6.0.3",
-    "@angular/compiler": "^6.0.3",
-    "@angular/core": "^6.0.3",
-    "@angular/forms": "^6.0.3",
-    "@angular/http": "^6.0.3",
-    "@angular/platform-browser": "^6.0.3",
-    "@angular/platform-browser-dynamic": "^6.0.3",
-    "@angular/router": "^6.0.3",
+    "@angular/animations": "^7.2.16",
+    "@angular/common": "^7.2.16",
+    "@angular/compiler": "^7.2.16",
+    "@angular/core": "^7.2.16",
+    "@angular/forms": "^7.2.16",
+    "@angular/http": "^7.2.16",
+    "@angular/platform-browser": "^7.2.16",
+    "@angular/platform-browser-dynamic": "^7.2.16",
+    "@angular/router": "^7.2.16",
     "core-js": "^2.5.4",
-    "rxjs": "^6.2.2",
-    "zone.js": "^0.8.26",
+    "rxjs": "^6.6.7",
+    "zone.js": "^0.8.29",
     "@angular-devkit/build-angular": "~0.6.8",
-    "@angular/cli": "~6.0.3",
-    "@angular/compiler-cli": "^6.0.3",
-    "@angular/language-service": "^6.0.3",
+    "@angular/cli": "~7.3.10",
+    "@angular/compiler-cli": "^7.2.16",
+    "@angular/language-service": "^7.2.16",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
@@ -69,6 +69,10 @@
     "scss-bundle": "^2.3.2",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
+    "typescript": "~3.2.4"
+  },
+  "engines": {
+    "node": "10.24.1",
+    "npm": "6.14.x"
   }
 }
