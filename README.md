@@ -1,11 +1,11 @@
-# NgxBlade
+# NgxBlade2
 
-[![Travis](https://travis-ci.com/cyberpirate92/ngx-blade.svg?branch=master)](https://travis-ci.com/cyberpirate92/ngx-blade)
+[![Travis](https://travis-ci.com/karnavpargi/ngx-blade2.svg?branch=master)](https://travis-ci.com/karnavpargi/ngx-blade2)
 [![npm](https://img.shields.io/npm/v/ngx-blade.svg)](https://www.npmjs.com/package/ngx-blade)
 [![npm](https://img.shields.io/npm/dt/ngx-blade.svg)](https://www.npmjs.com/package/ngx-blade)
 
 A simplistic blade component for Angular with minimize/maximize and a close button.
-
+## [Forked from ngx-blade](https://www.npmjs.com/package/ngx-blade)
 ## [Stackblitz Demo](https://stackblitz.com/edit/angular-ngx-blade)
 
 ## Installation
@@ -14,7 +14,7 @@ A simplistic blade component for Angular with minimize/maximize and a close butt
 
 ```bash
 
-npm i ngx-blade --save
+npm i ngx-blade2 --save
 
 ```
 
