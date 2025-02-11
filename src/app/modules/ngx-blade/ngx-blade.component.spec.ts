@@ -2,7 +2,6 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NgxBladeComponent } from './ngx-blade.component';
 import { DebugElement } from '@angular/core';
-import { componentRefresh } from '../../../../node_modules/@angular/core/src/render3/instructions';
 
 describe('NgxBladeComponent', () => {
   let component: NgxBladeComponent;
@@ -74,3 +73,4 @@ describe('NgxBladeComponent', () => {
     expect(minimizeButton).toBeFalsy();
   });
 });
+
