@@ -8,6 +8,15 @@ A simplistic blade component for Angular with minimize/maximize and a close butt
 ## [Forked from ngx-blade](https://www.npmjs.com/package/ngx-blade)
 ## [Stackblitz Demo](https://stackblitz.com/edit/angular-ngx-blade)
 
+## Compatibility
+
+|  ngx-blade2   |    Angular    |
+| ------------- | ------------- |
+| 9.0.0         | 9.x.x         |
+| 8.0.0         | 8.x.x         |
+| 7.0.0         | 7.x.x         |
+| 6.0.0         | 6.x.x         |
+
 ## Installation
 
 **Step 1**: Install NPM package
