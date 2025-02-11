@@ -1,0 +1,36 @@
+<div *ngIf="config.isModal" class="modal-cover"></div>
+<div class="wrapper" [style.width.%]="isMinimized ? width : 100">
+  <div class="blade-container">
+    <div class="blade-header">
+      <div class="header-title">
+        <div class="header-title-wrapper">
+          <ng-content select="[ngxBladeHeader]">
+          </ng-content>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span class="action-button" (click)="onMinimize()" *ngIf="config.maximizeButton && !isMinimized" id="ngxBladeMinimizeBtn">
+          <b>&#x0229f;</b>
+        </span>
+        <span class="action-button" (click)="onMaximize()" *ngIf="config.maximizeButton && isMinimized" id="ngxBladeMaximizeBtn">
+          <b>&#x0229E;</b>
+        </span>
+        <span class="action-button danger" (click)="onClose.emit()" *ngIf="config.closeButton" id="ngxBladeCloseBtn">
+          <b>&times;</b>
+        </span>
+      </div>
+    </div>
+    <div class="blade-body">
+      <div class="blade-body-wrapper">
+        <ng-content select="[ngxBladeBody]">
+        </ng-content>
+      </div>
+    </div>
+    <div class="blade-footer">
+      <div class="blade-footer-wrapper">
+        <ng-content select="[ngxBladeFooter]">
+        </ng-content>
+      </div>
+    </div>
+  </div>
+</div>
