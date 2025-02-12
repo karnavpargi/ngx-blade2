@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/karnavpargi/ngx-bladex/issues"
   },
-  "version": "9.0.1",
+  "version": "11.0.0",
   "author": {
     "name": "Karnav Pargi",
     "url": "https://www.karnavpargi.com"
@@ -27,10 +27,10 @@
   },
   "private": false,
   "peerDependencies": {
-    "@angular/common": "^9.1.13",
-    "@angular/core": "^9.1.13"
+    "@angular/common": "^10.2.5",
+    "@angular/core": "^10.2.5"
   },
   "dependencies": {
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   }
 }
