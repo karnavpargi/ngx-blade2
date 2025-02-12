@@ -145,7 +145,6 @@
       }
     }
   },
-  "defaultProject": "ngx-bladex",
   "cli": {
     "analytics": false
   }
