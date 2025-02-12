@@ -1,0 +1,36 @@
+{
+  "name": "ngx-bladex",
+  "description": "A simplistic and customizable blade component for Angular",
+  "keywords": [
+    "blade",
+    "blade-view",
+    "azure-blade",
+    "ngx-blade",
+    "ngx-bladex",
+    "angular-sidebar",
+    "ngx-bladex",
+    "blade-component"
+  ],
+  "homepage": "https://github.com/karnavpargi/ngx-bladex",
+  "bugs": {
+    "url": "https://github.com/karnavpargi/ngx-bladex/issues"
+  },
+  "version": "9.0.1",
+  "author": {
+    "name": "Karnav Pargi",
+    "url": "https://www.karnavpargi.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/karnavpargi/ngx-bladex",
+    "type": "git"
+  },
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^9.1.13",
+    "@angular/core": "^9.1.13"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}

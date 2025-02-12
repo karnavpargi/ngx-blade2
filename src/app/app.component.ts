@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { BladeConfig } from './modules/ngx-blade/ngx-blade.component';
+import { BladeConfig } from 'projects/ngx-blade/src/public-api';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   public bladeTitle = 'Transaction Details';
