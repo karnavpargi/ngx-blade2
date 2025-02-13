@@ -1,8 +1,8 @@
 # NgxBlade2
 
 [![Travis](https://travis-ci.com/karnavpargi/ngx-bladex.svg?branch=master)](https://travis-ci.com/karnavpargi/ngx-bladex)
-[![npm](https://img.shields.io/npm/v/ngx-blade.svg)](https://www.npmjs.com/package/ngx-blade)
-[![npm](https://img.shields.io/npm/dt/ngx-blade.svg)](https://www.npmjs.com/package/ngx-blade)
+[![npm](https://img.shields.io/npm/v/ngx-bladex.svg)](https://www.npmjs.com/package/ngx-bladex)
+[![npm](https://img.shields.io/npm/dt/ngx-bladex.svg)](https://www.npmjs.com/package/ngx-bladex)
 
 A simplistic blade component for Angular with minimize/maximize and a close button.
 
@@ -39,8 +39,9 @@ npm i ngx-bladex --save
 
 **Step 2**: Import `NgxBladeModule` into in your module
 
-```typescript
+##### Skip this if you are using standalone components
 
+```typescript
 import { NgxBladeModule } from 'ngx-blade';
 
 @NgModule({
@@ -49,11 +50,17 @@ import { NgxBladeModule } from 'ngx-blade';
 })
 
 ```
+**Step 2.1**: To use standalone component Import `NgxBladeComponent` into in your component
+##### Skip this if you are using Module approach
+```typescript
 
-**Step 3**: Add the default theme to **src/styles.scss** file.
+import { NgxBladeComponent } from 'ngx-blade';
 
-```scss
-@import "~ngx-blade/default.scss";
+@Component({
+    //..
+    imports:      [ NgxBladeComponent, .. ]
+})
+
 ```
 
 ---
@@ -148,15 +155,5 @@ $ngxBladeFooterTextColor
 
 ```
 
-For example, if you like to change the blade's header color, all you have to do is to assign `ngxBladeHeaderBackground` your preferred color **before** the default theme is imported.
-
-**/src/styles.scss**
-
-```SCSS
-
-$ngxBladeHeaderBackground: rgba(127, 0, 0, 1);   // <---
-@import "~ngx-blade/default.scss";
-
-```
 
 ## [Theme Customisation Demo](https://stackblitz.com/edit/angular-ngx-blade-theme-customization?file=src/styles.scss)
