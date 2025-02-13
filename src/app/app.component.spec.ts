@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { NgxBladeModule } from 'projects/ngx-blade/src/public-api';
 
 describe('AppComponent', () => {
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       imports: [NgxBladeModule, FormsModule],
       declarations: [AppComponent],
     }).compileComponents();
-  }));
+  });
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);

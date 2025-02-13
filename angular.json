@@ -22,13 +22,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": [],
             "vendorChunk": true,
             "extractLicenses": false,
@@ -92,13 +87,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         },
@@ -125,21 +115,25 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngx-blade/tsconfig.lib.json",
             "project": "projects/ngx-blade/ng-package.json"
           },
           "configurations": {
             "production": {
               "tsConfig": "projects/ngx-blade/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-blade/tsconfig.lib.json"
             }
-          }
+          },
+          "defaultConfiguration": "production"
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "projects/ngx-blade/src/test.ts",
             "tsConfig": "projects/ngx-blade/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-blade/karma.conf.js"
+            "karmaConfig": "projects/ngx-blade/karma.conf.js",
+            "watch": false
           }
         }
       }

@@ -10,11 +10,11 @@ describe('NgxBladeComponent', () => {
   let maximizeButton: DebugElement;
   let minimizeButton: DebugElement;
 
-  beforeEach(async(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
       declarations: [NgxBladeComponent],
     }).compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(NgxBladeComponent);
@@ -40,7 +40,7 @@ describe('NgxBladeComponent', () => {
     expect(closeButton).toBeTruthy();
   });
 
-  it('maxmimize button must be enabled in default config', () => {
+  it('maximize button must be enabled in default config', () => {
     maximizeButton = fixture.nativeElement.querySelector(
       '#ngxBladeMaximizeBtn'
     );
