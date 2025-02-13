@@ -1,9 +1,12 @@
+import { NgIf } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
-  selector: 'ngx-blade',
-  templateUrl: './ngx-blade.component.html',
-  styleUrls: ['./ngx-blade.component.scss'],
+    selector: 'ngx-blade',
+    templateUrl: './ngx-blade.component.html',
+    styleUrls: ['./ngx-blade.component.scss'],
+    standalone: true,
+    imports: [NgIf],
 })
 export class NgxBladeComponent {
   public readonly DEFAULT_WIDTH: number = 25;

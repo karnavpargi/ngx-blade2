@@ -3,4 +3,4 @@
  */
 
 export * from './lib/ngx-blade.component';
-export * from './lib/ngx-blade.module';
+

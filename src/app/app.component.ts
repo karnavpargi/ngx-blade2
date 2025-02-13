@@ -1,10 +1,19 @@
+import { JsonPipe, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
-import { BladeConfig } from 'projects/ngx-blade/src/public-api';
+import { FormsModule } from '@angular/forms';
+import { BladeConfig, NgxBladeComponent } from 'projects/ngx-blade/src/public-api';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: true,
+    imports: [
+        FormsModule,
+        NgIf,
+        JsonPipe,
+        NgxBladeComponent
+    ],
 })
 export class AppComponent {
   public bladeTitle = 'Transaction Details';
