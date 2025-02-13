@@ -14,6 +14,7 @@ A simplistic blade component for Angular with minimize/maximize and a close butt
 
 | ngx-bladex | Angular |
 | ---------- | ------- |
+| 16.0.0     | 16.x.x  |
 | 15.0.0     | 15.x.x  |
 | 14.0.0     | 14.x.x  |
 | 13.0.0     | 13.x.x  |
